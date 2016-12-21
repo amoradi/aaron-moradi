@@ -1,0 +1,83 @@
+html {
+	background: #012749 url("../images/space-bkgr.jpg") center center no-repeat;
+	background-size: cover;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	padding: 2% 6%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body {
+	padding-bottom: 100px;
+}
+
+h1,
+.SubTitle,
+.BackgroundText {
+	font-size: 6vw;
+	font-weight: 700;
+	line-height: 1;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+}
+
+.SubTitle {
+	font-size: 1vw;
+	letter-spacing: 4px;
+	line-height: 1.3;
+	margin-top: 1rem;
+	display: block;
+}
+
+.BackgroundText {
+	font-size: 2vw;
+	line-height: 1.5;
+	margin-top: 4rem;
+	color: gray;
+	color: rgba(250, 250, 250, 0.4);
+}
+
+.BackgroundText p {
+	margin: 0;
+}
+
+.FixedFooter {
+	background-color: #111;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 28px calc(6% + 55px);
+}
+
+.Buttons {
+	text-transform: uppercase;
+	padding: 0.25rem 3rem;
+	display: inline-block;
+	margin: 0 7px;
+	letter-spacing: 2px;
+}
+
+.Container {
+	padding: 75px 55px;
+}
+
+.u-green {
+	color: #39e1d3;
+}
+
+.u-bkgr-blue {
+	background-color: #1e73d1;
+}
+
+.u-bkgr-green {
+	background-color: #2fbfb8;
+}
+
+.u-bkgr-red {
+	background-color: #d13c3c;
+}
